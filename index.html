@@ -11,13 +11,14 @@
     <h1> Etch-a-Sketch</h1>
     <div class="header">
         <h5>Select the size</h5>
-        <button id="poppup" class="btn btn-primary">Select</button>
+        <button id="poppup" class="btn btn-primary" >Select</button>
     </div>
+    <p id="messag"></p>
     <div class="box"></div>
     <div class="footer">
-        <button class="btn btn-dark">Black</button>
-        <button class="btn btn-warning">Random</button>
-        <button class="btn btn-danger">Reset</button>
+        <button class="btn btn-dark" onclick="setColor('black')">Black</button>
+        <button class="btn btn-warning" onclick="setColor('random')">Random</button>
+        <button class="btn btn-danger" onclick=" resetBox()">Reset</button>
     </div>
 
 
